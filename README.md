@@ -1,26 +1,27 @@
-# conway-s-game-of-life-python
+# Conway-s-game-of-life-python
 my implementation of the Conway’s game of life in python using **pygame 1.9.6**
 
-![Alt Text](gol.gif)
+![Alt Text](gof.gif)
 
 #### Usage
---- Drawing phase --- 
-`MOUSE` - Left and Right click to paint or clear square
-`S` - Stop Drawing Phase and Start Life Phase 
-`C` - Clear grid
-`R` - Fill grid at random
-`Q` - Quit Game
-
-
---- Life Phase ---
-`S` - Stop Life Phase and Start Drawing Phase
-`O` - To Decrease speed
-`P` - To Increase speed
+--- Drawing phase --- \
+`MOUSE` - Left and Right click to paint or clear square\
+`S` - Stop Drawing Phase and Start Life Phase \
+`C` - Clear grid\
+`R` - Fill grid at random\
+`Q` - Quit Game\
+\
+\
+--- Life Phase ---\
+`S` - Stop Life Phase and Start Drawing Phase\
+`O` - To Decrease speed\
+`P` - To Increase speed\
 `Q` - Quit Game
 
 #### Settings
 Colors, dimensions of squares, number of row/columns and margin size can be modified in this variables:
 ```python
+# ------------------------ Settings ------------------------ #
 # Define some colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
