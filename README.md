@@ -1,7 +1,7 @@
 # Conway-s-game-of-life-python
 my implementation of the Conway’s game of life in python using **pygame 1.9.6**
 
-![Alt Text](gof.gif)
+![Alt Text](gol.gif)
 
 #### Usage
 --- Drawing phase --- \
